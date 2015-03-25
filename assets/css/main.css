@@ -1,0 +1,35 @@
+
+
+h1 {
+    text-align: center;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+}
+
+.pixel-container {
+    width: 1000px;
+    height: 1000px;
+    overflow: visible;
+    position: relative;
+    margin: 0 auto 40px;
+    background-color: #eaeaea;
+     /*transform: scale(0.5,0.5);*/
+   /* transform: scale(0.25);
+    transform-origin: -25% -25%;*/
+}
+.error { border: 1px solid red;}
+.single-pixel{
+    float: left;
+    display: inline-block;
+    background-color: blue;     
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+}
+.single-pixel:hover {
+    cursor: pointer;
+    background-color: white;
+}
